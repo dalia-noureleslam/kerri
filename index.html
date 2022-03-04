@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerri</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito&display=swap"
+        rel="stylesheet">
+    <!-- title img -->
+    <link rel="shortcut icon" href="img/logo-dark.png" />
+</head>
+
+<body>
+    <!------------------navbar ------------ -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" class="w-50" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">about</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">client</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">portfolio</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+
+    <header class="position-relative">
+        <div class="layout d-flex justify-content-center  flex-column">
+            <div class="caption text-white text-center">
+                <h4 class="my-3">welcome</h4>
+                <h1 class="my-3"></h1>
+                <p class="w-75 m-auto my-3">It is a long established fact that a reader will be
+                    of a page when established fact looking at its layout.</p>
+                <button class="btn text-white my-3">DOWNLOAD CV</button>
+            </div>
+
+            <div class="scroll-down position-absolute d-flex justify-content-center align-items-end">
+                <span class="position-relative"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- setting -->
+    <div class="setting position-fixed start-0 p-4 rounded rounded-3 d-flex align-items-center justify-content-center">
+        <i class="fas fa-cog text-white fa-spin fa-x"></i>
+    </div>
+
+
+    <!-- client -->
+
+    <section class="client py-5 text-center bg-light">
+        <div class="container">
+            <div class="client-heading py-5">
+                <h2>Our <span>Client</span></h2>
+                <p class="py-3 text-muted">It is a long established fact that a reader will be of a page when
+                    <br>
+                    established fact looking at its layout.
+                </p>
+            </div>
+
+            <!-- slider -->
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="item text-center">
+                            <i class="fas fa-quote-left fa-2x"></i>
+                            <img src="img/testi-1.jpg"
+                                class="img-fluid rounded-circle img-thumbnail d-block m-auto my-4" alt="">
+                            <p class="text-muted">
+                                " The point of using Lorem Ipsum is that it has a more-or-less normal
+                                distribution of letters, as opposed to using 'Content here."
+                            </p>
+                            <p>- Ebony verty, </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="item text-center">
+                            <i class="fas fa-quote-left fa-2x"></i>
+                            <img src="img/testi-2.jpg"
+                                class="img-fluid rounded-circle img-thumbnail d-block m-auto my-4" alt="">
+                            <p class="text-muted">
+                                " The point of using Lorem Ipsum is that it has a more-or-less normal
+                                distribution of letters, as opposed to using 'Content here."
+                            </p>
+                            <p>- Ebony verty, </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="item text-center">
+                            <i class="fas fa-quote-left fa-2x"></i>
+                            <img src="img/testi-3.jpg"
+                                class="img-fluid rounded-circle img-thumbnail d-block m-auto my-4" alt="">
+                            <p class="text-muted">
+                                " The point of using Lorem Ipsum is that it has a more-or-less normal
+                                distribution of letters, as opposed to using 'Content here."
+                            </p>
+                            <p>- Ebony verty, </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-indicators position-static mt-3">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+            </div>
+            <!-- end slider -->
+
+
+        </div>
+    </section>
+
+    <!-- works -->
+
+    <section class="works text-center py-5">
+        <div class="container">
+            <div class="heading py-5">
+                <h2>Our <span>Works</span></h2>
+                <p class="text-muted">t is a long established fact that a reader will be of a page when
+                    <br> established fact looking at its layout.
+                </p>
+            </div>
+
+            <!-- work navs -->
+            <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" role="tab"
+                        aria-controls="home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" role="tab"
+                        aria-controls="profile" aria-selected="false">Profile</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" role="tab"
+                        aria-controls="contact" aria-selected="false">Contact</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row py-5 ">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="work-item position-relative overflow-hidden mt-4 rounded rounded-5">
+                                <img src="img/1.jpg" class="img-fluid" alt="">
+                                <div
+                                    class="layer position-absolute start-0 end-0 top-0 bottom-0 text-white d-flex align-items-center justify-content-center">
+                                    <div class="position-relative card-caption">
+                                        <h6>Category</h6>
+                                        <p>project Title</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="work-item position-relative overflow-hidden mt-4 rounded rounded-5">
+                                <img src="img/2.jpg" class="img-fluid" alt="">
+                                <div
+                                    class="layer position-absolute start-0 end-0 top-0 bottom-0 text-white d-flex align-items-center justify-content-center">
+                                    <div class="position-relative card-caption">
+                                        <h6>Category</h6>
+                                        <p>project Title</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="work-item position-relative overflow-hidden mt-4 rounded rounded-5">
+                                <img src="img/3.jpg" class="img-fluid" alt="">
+                                <div
+                                    class="layer position-absolute start-0 end-0 top-0 bottom-0 text-white d-flex align-items-center justify-content-center">
+                                    <div class="position-relative card-caption">
+                                        <h6>Category</h6>
+                                        <p>project Title</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="work-item position-relative overflow-hidden mt-4 rounded rounded-5">
+                                <img src="img/4.jpg" class="img-fluid" alt="">
+                                <div
+                                    class="layer position-absolute start-0 end-0 top-0 bottom-0 text-white d-flex align-items-center justify-content-center">
+                                    <div class="position-relative card-caption">
+                                        <h6>Category</h6>
+                                        <p>project Title</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="work-item position-relative overflow-hidden mt-4 rounded rounded-5">
+                                <img src="img/5.jpg" class="img-fluid" alt="">
+                                <div
+                                    class="layer position-absolute start-0 end-0 top-0 bottom-0 text-white d-flex align-items-center justify-content-center">
+                                    <div class="position-relative card-caption">
+                                        <h6>Category</h6>
+                                        <p>project Title</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="row py-5">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="work-item position-relative overflow-hidden mt-4 rounded rounded-5">
+                                <img src="img/1.jpg" class="img-fluid" alt="">
+                                <div
+                                    class="layer position-absolute start-0 end-0 top-0 bottom-0 text-white d-flex align-items-center justify-content-center">
+                                    <div class="position-relative card-caption">
+                                        <h6>Category</h6>
+                                        <p>project Title</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row py-5">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="work-item position-relative overflow-hidden mt-4 rounded rounded-5">
+                                <img src="img/1.jpg" class="img-fluid" alt="">
+                                <div
+                                    class="layer position-absolute start-0 end-0 top-0 bottom-0 text-white d-flex align-items-center justify-content-center">
+                                    <div class="position-relative card-caption">
+                                        <h6>Category</h6>
+                                        <p>project Title</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="work-item position-relative overflow-hidden mt-4 rounded rounded-5">
+                                <img src="img/2.jpg" class="img-fluid" alt="">
+                                <div
+                                    class="layer position-absolute start-0 end-0 top-0 bottom-0 text-white d-flex align-items-center justify-content-center">
+                                    <div class="position-relative card-caption">
+                                        <h6>Category</h6>
+                                        <p>project Title</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="work-item position-relative overflow-hidden mt-4 rounded rounded-5">
+                                <img src="img/3.jpg" class="img-fluid" alt="">
+                                <div
+                                    class="layer position-absolute start-0 end-0 top-0 bottom-0 text-white d-flex align-items-center justify-content-center">
+                                    <div class="position-relative card-caption">
+                                        <h6>Category</h6>
+                                        <p>project Title</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="work-item position-relative overflow-hidden mt-4 rounded rounded-5">
+                                <img src="img/4.jpg" class="img-fluid" alt="">
+                                <div
+                                    class="layer position-absolute start-0 end-0 top-0 bottom-0 text-white d-flex align-items-center justify-content-center">
+                                    <div class="position-relative card-caption">
+                                        <h6>Category</h6>
+                                        <p>project Title</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="work-item position-relative overflow-hidden mt-4 rounded rounded-5">
+                                <img src="img/5.jpg" class="img-fluid" alt="">
+                                <div
+                                    class="layer position-absolute start-0 end-0 top-0 bottom-0 text-white d-flex align-items-center justify-content-center">
+                                    <div class="position-relative card-caption">
+                                        <h6>Category</h6>
+                                        <p>project Title</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end -->
+
+
+        </div>
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact-heading py-5 text-center">
+                <h2>Contct <span>Us</span></h2>
+                <p class="py-3 text-muted">It is a long established fact that a reader will be of a page when
+                    <br>
+                    established fact looking at its layout.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contact-item text-center">
+                        <i class="fas fa-mobile-alt fa-3x my-3"></i>
+                        <h5>Call Us On</h5>
+                        <p>+985 123 7856</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-item text-center">
+                        <i class="fas fa-envelope-open  my-3 fa-3x"></i>
+                        <h3>Call Us On</h3>
+                        <p>+985 123 7856</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-item text-center">
+                        <i class="fas fa-mobile-alt fa-3x my-3"></i>
+                        <h5>Call Us On</h5>
+                        <p>+985 123 7856</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="mt-3">
+                <div class="row gy-3">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control py-3" placeholder="your Name*">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control py-3" placeholder="your Email*">
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" placeholder="Your subject" class="form-control py-3">
+                    </div>
+                    <div class="col-md-12">
+                        <textarea name="" id="" rows="5" class="form-control" placeholder="your Message"></textarea>
+                    </div>
+
+                </div>
+                <button class="btn my-3 float-end" type="submit">send Message</button>
+                <div class="clearfix"></div>
+            </form>
+        </div>
+
+
+    </section>
+
+    <div class="line m-auto my-5"></div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
