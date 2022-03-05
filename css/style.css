@@ -59,7 +59,10 @@ h1::after{
     animation:typing 10s infinite alternate;
     -webkit-animation:typing 10s infinite alternate;
 }
-
+.setting-position{
+    position: absolute;
+    z-index: 99999999;
+}
 @keyframes typing {
     0% {
         content: "K|";
