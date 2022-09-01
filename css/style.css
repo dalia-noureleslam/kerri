@@ -39,7 +39,7 @@ header{
        height:100%;}
 
 .caption p{
-    color:var(--mutedColor)
+  color:var(--mutedColor)
 }  
 
 h1{font-size: 54px;}
